@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/steps/00-starter/">
+    <Project Path="steps/00-starter/CodingAgent/CodingAgent.csproj" />
+  </Folder>
+</Solution>

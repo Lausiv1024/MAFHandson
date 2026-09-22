@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType></PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Agents.AI" Version="1.22.0" />
+    <PackageReference Include="Microsoft.Agents.AI.OpenAI" Version="1.22.0" />
+    <Compile Include="../../../shared/ProviderSetup.cs" Link="ProviderSetup.cs" />
+    <Compile Include="../../../shared/ConsoleInput.cs" Link="ConsoleInput.cs" />
+    <Compile Include="../../../shared/WorkspaceTools.cs" Link="WorkspaceTools.cs" />
+  </ItemGroup>
+</Project>
